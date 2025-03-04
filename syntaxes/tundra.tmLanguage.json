@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "NB (NotBad)",
+	"name": "Tundra",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -24,17 +24,17 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.noba",
+				"name": "keyword.control.tundra",
 				"match": "\\b(if|else|while|for|return|func|fn|function|do|var|const)\\b"
 			}]
 		},
 		"strings": {
-			"name": "string.quoted.double.noba",
+			"name": "string.quoted.double.tundra",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.noba",
+					"name": "constant.character.escape.tundra",
 					"match": "\\\\."
 				}
 			]
@@ -42,28 +42,28 @@
 		"comments": {
 			"patterns": [
 				{
-					"name": "comment.line.double-slash.noba",
+					"name": "comment.line.double-slash.tundra",
 					"match": "//.*$"
 				},
 				{
-					"name": "comment.block.noba",
+					"name": "comment.block.tundra",
 					"begin": "/\\*",
 					"end": "\\*/"
 				}
 			]
 		},
 		"numbers": {
-			"name": "constant.numeric.noba",
+			"name": "constant.numeric.tundra",
 			"match": "\\b[0-9]+(\\.[0-9]+)?\\b"
 		},
 		"functions": {
-			"name": "entity.name.function.noba",
+			"name": "entity.name.function.tundra",
 			"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\s*\\("
 		},
 		"variables": {
-			"name": "variable.other.noba",
+			"name": "variable.other.tundra",
 			"match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
 		}
 	},
-	"scopeName": "source.noba"
+	"scopeName": "source.tundra"
 }

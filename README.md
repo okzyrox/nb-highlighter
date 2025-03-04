@@ -1,6 +1,6 @@
-# nb-lang-highlighter README
+# Tundra Highlighting
 
-Code highlighting support for NB (NotBad) language.
+Code highlighting support for tundra
 
 
 ## Build
